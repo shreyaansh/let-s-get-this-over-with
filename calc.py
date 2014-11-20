@@ -68,6 +68,8 @@ while (True):
             print "Difference: ", sub(a, b)
         elif (op == "*"):
             print "Product: ", mult(a, b)
+        elif (op == "%"):
+            print "Remainder: ", mod(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
         elif (op == "%"):
